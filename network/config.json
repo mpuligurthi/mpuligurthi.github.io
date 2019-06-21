@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://minio.la.utexas.edu/colaweb-prod/news_images/1/11791/llilas_benson_receives_mellon_grant_to_pioneer_archival_projects_in_latin_america.jpeg",
+    "link": "https://llilasbenson.utexas.edu/",
+    "text": "Mounika Puligurthi"
+  },
+  "text": {
+    "more": "This social network visualization and an accompanying timeline commemorate the 106th anniversary of La Decena Trágica (the ten tragic days of the Mexican Revolution), a series of battles in 1913 that ended the dictatorship of Porfirio Díaz and catalyzed the establishment of a constitutional republic in Mexico. Using photographs from various collections and a detailed account of the Decena held at the Benson Rare Books Room which contains testimonies from witnesses and journalists, I illustrate the Decena’s impact not only on the political stage, but also on soldiers, medical corps groups, and civilians. The social network visualization creation process involved a thorough reading of the Decena accounts, exploring named entity recognition of individuals and establishing relations between individuals and groups through a text annotation platform called Recogito, and exporting the entities and relations as excel spreadsheets from Recogito into Gephi to assemble the visualization. \nAlthough political turmoil ignited battles across the country, the voices of the people impacted by the bloodshed are at the forefront of my visualization and timeline, distinct from projects that solely depict battle scenes. It’s crucial to note that groups such as women are excluded from this visualization due to lack of information about their roles in the account.The visualization and timeline will be accompanied by a blog post explaining my thought process behind the project. These projects will be used by the University of Texas School of Education to teach high-school students about the Mexican Revolution, and are only meant to complement, rather than replace, more profound research.\n",
+    "intro": "The following is a social network visualization commemorating the 106th anniversary of La Decena Trágica, the ten tragic days of the Mexican Revolution.The interactions among the various military individuals, soldiers, and civil servants/medical corps groups (along with the various names used to mention them in the text) are illustrated here with the goal of educating high-school students in Austin about the Mexican Revolution. Project done by Mounika Puligurthi, Digital Scholarship and Special Collections Intern, Spring 2019. ",
+    "title": "Visualizing La Decena Trágica"
+  },
+  "legend": {
+    "edgeLabel": "Relationships",
+    "colorLabel": "Roles and Relationships in the Decena Trágica (Closeness Centrality)",
+    "nodeLabel": "Individuals"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Category",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Image Link"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
